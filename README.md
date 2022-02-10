@@ -7,6 +7,9 @@ This repository contains python code to numerically calculate the solution <i>U(
  <p align="center">
 <img src="https://latex.codecogs.com/svg.latex?\small&space;\frac{\partial^\alpha&space;U}{\partial&space;t^{\alpha}}&space;=&space;D(\partial_x&space;U)&space;\frac{&space;\partial^2&space;U}{\partial&space;x^2}&space;\qquad&space;(1)," title="\small \frac{\partial^\alpha U}{\partial t^{\alpha}} = D(\partial_x U) \frac{ \partial^2 U}{\partial x^2} \qquad (1)," />
  </p>
+ 
+ <img width="243" alt="image" src="https://user-images.githubusercontent.com/37583039/153430299-4b286c61-a8c2-4665-968e-0e11f823a7a7.png">
+
 
 on a domain <i>(x,t) &#8712; [0,L] &#215; [0,T]</i>, and with boundary conditions
 
