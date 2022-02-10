@@ -8,9 +8,7 @@ This repository contains python code to numerically calculate the solution <i>U(
 
 on a domain <i>(x,t) &#8712; [0,L] &#215; [0,T]</i>, and with boundary conditions
 
-<img src="https://render.githubusercontent.com/render/math?math=U(x,t=0) = (\partial_t U)(x,t=0) = 0 \qquad \forall x \in (0,L)">
-<img src="https://render.githubusercontent.com/render/math?math=U(x=0,t) = U_0(t) \qquad \forall t \in (0,T)">
-<img src="https://render.githubusercontent.com/render/math?math=U(x=L,t) = U_L(t) \qquad \forall t \in (0,T)">
+ <img src="https://render.githubusercontent.com/render/math?math=\begin{matrix} U(x,t=0) &=& (\partial_t U)(x,t=0) &=& 0 & \forall x \in (0,L) \\ U(x=0,t) &=& U_0(t) & & &\forall t \in (0,T) \\ U(x=L,t) &=& U_L(t) & && \forall t \in (0,T) \end{matrix}">
 
 where <i>U<sub>0</sub>(t)</i> and <i>U<sub>L</sub>(t)</i> are given functions that model time-dependent boundaries.
 
