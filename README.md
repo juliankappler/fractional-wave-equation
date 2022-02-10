@@ -4,18 +4,14 @@
 
 This repository contains python code to numerically calculate the solution <i>U(x,t)</i> of a **nonlinear fractional wave equation**
 
- <p align="center">
-<img src="https://latex.codecogs.com/svg.latex?\small&space;\frac{\partial^\alpha&space;U}{\partial&space;t^{\alpha}}&space;=&space;D(\partial_x&space;U)&space;\frac{&space;\partial^2&space;U}{\partial&space;x^2}&space;\qquad&space;(1)," title="\small \frac{\partial^\alpha U}{\partial t^{\alpha}} = D(\partial_x U) \frac{ \partial^2 U}{\partial x^2} \qquad (1)," />
- </p>
- 
  <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial^{\alpha} U}{\partial t^{\alpha}} = D(\partial_x U)\frac{\partial^2 U}{\partial x^2} \qquad (1)">
-
 
 on a domain <i>(x,t) &#8712; [0,L] &#215; [0,T]</i>, and with boundary conditions
 
 <p align="center">
 <img src="https://latex.codecogs.com/svg.latex?\begin{matrix}&space;U(x,t=0)&space;&=&&space;(\partial_t&space;U)(x,t=0)&space;&=&&space;0&space;&&space;\forall&space;x&space;\in&space;(0,L)&space;\\&space;U(x=0,t)&space;&=&&space;U_0(t)&space;&&space;&&space;&\forall&space;t&space;\in&space;(0,T)&space;\\&space;U(x=L,t)&space;&=&&space;U_L(t)&space;&&space;&&&space;\forall&space;t&space;\in&space;(0,T)&space;\end{matrix}" title="\begin{matrix} U(x,t=0) &=& (\partial_t U)(x,t=0) &=& 0 & \forall x \in (0,L) \\ U(x=0,t) &=& U_0(t) & & &\forall t \in (0,T) \\ U(x=L,t) &=& U_L(t) & && \forall t \in (0,T) \end{matrix}" />
 </p>
+
 
 where <i>U<sub>0</sub>(t)</i> and <i>U<sub>L</sub>(t)</i> are given functions that model time-dependent boundaries.
 
